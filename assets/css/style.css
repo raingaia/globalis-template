@@ -23,7 +23,6 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        /* --- 2. FLUID BACKGROUND --- */
         .fluid-bg {
             position: fixed;
             top: 0; left: 0; width: 100vw; height: 100vh;
@@ -43,7 +42,6 @@
             100% { transform: scale(1.05); }
         }
 
-        /* --- 3. SCROLL REVEAL --- */
         .reveal {
             opacity: 0;
             transform: translateY(30px);
@@ -51,7 +49,6 @@
         }
         .reveal.active { opacity: 1; transform: translateY(0); }
 
-        /* --- 4. HEADER --- */
         header {
             position: fixed;
             top: 0; left: 0; width: 100%;
@@ -117,7 +114,6 @@
             color: white;
         }
 
-        /* --- 5. HERO --- */
         .hero {
             min-height: 90vh;
             display: flex;
@@ -176,7 +172,6 @@
             box-shadow: 0 15px 30px rgba(0,0,0,0.15);
         }
 
-        /* --- 6. CONTAINER & GRID --- */
         .container {
             max-width: var(--container-width);
             margin: 0 auto;
@@ -214,7 +209,6 @@
             gap: 40px;
         }
 
-        /* --- 7. CARDS --- */
         .card {
             background: var(--bg-card);
             padding: 50px 40px;
@@ -234,7 +228,6 @@
         .card p { color: var(--text-secondary); font-size: 1rem; line-height: 1.7; margin-bottom: 24px; }
         .card-link { font-size: 0.9rem; font-weight: 600; color: var(--text-primary); text-decoration: none; border-bottom: 1px solid var(--gold-accent); padding-bottom: 2px; }
 
-        /* --- 8. EDITORIAL SECTION --- */
         .editorial-section {
             background: #fff;
             padding: 100px 0;
@@ -264,7 +257,6 @@
         .article-card p { color: var(--text-secondary); font-size: 1rem; line-height: 1.7; margin-bottom: 20px; max-width: 95%; }
         .read-more { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-primary); border-bottom: 1px solid var(--gold-accent); padding-bottom: 2px; }
 
-        /* --- 9. FORM SECTION --- */
         .form-section { padding: 80px 0; }
         .form-wrapper { max-width: 700px; margin: 0 auto; }
         
@@ -275,7 +267,6 @@
         .clean-label { position: absolute; top: 15px; left: 0; font-size: 1rem; color: var(--text-light); transition: 0.3s ease; pointer-events: none; }
         .clean-input:focus ~ .clean-label, .clean-input:not(:placeholder-shown) ~ .clean-label { top: -20px; font-size: 0.8rem; color: var(--gold-accent); letter-spacing: 1px; text-transform: uppercase; }
 
-        /* --- 10. FOOTER (AKQA STYLE) --- */
         footer {
             background: #1a1a1a;
             border-top: 1px solid #333;
@@ -322,7 +313,6 @@
             color: #ffffff;
         }
 
-        /* --- RESPONSIVE --- */
         @media (max-width: 900px) {
             .hero h1 { font-size: 3.5rem; }
             .section-header { flex-direction: column; align-items: flex-start; text-align: left; }
